@@ -185,6 +185,7 @@ input{
     border: 1px solid #252939;
     border-radius: 20px;
     padding: 10px;
+    background-color: #fff;
 }
 label{
     font-size: xx-small;
@@ -201,5 +202,5 @@ input[type="submit"]{
 .center{
     margin: auto;
     padding: auto;
-    
+
 }
