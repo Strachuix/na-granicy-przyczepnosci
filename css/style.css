@@ -24,6 +24,7 @@ main{
     width: 100%;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 i{
     font-size: 30px;
@@ -160,6 +161,7 @@ article{
     clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
     margin-top: -85px;
 } */
+
 footer{
     font-size: x-small;
     text-align: center;
@@ -171,4 +173,22 @@ i:hover{
 i:active{
     color: #215bf0;
     font-size: 30px;
+}
+/* login */
+form.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+input{
+    border: 1px solid #252939;
+    border-radius: 20px;
+    padding: 10px;
+}
+label{
+    font-size: xx-small;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 5px;
 }
