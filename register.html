@@ -19,28 +19,30 @@
                 <a href="" class="hover-resize"><span class="nav-txt"><i class="fa-solid fa-gamepad"></i></span></a>
             </nav>
         </div>
-        <main>
-            <section class="news-section">
-                <header>
-                    <i class="fa-solid fa-fire-flame-curved"></i>
-                    <h1>NEWS</h1>
+        <main class="center">
+            <section>
+                <header class="login-header">
+                    <!-- <i class="fa-solid fa-user"></i> -->
+                    <h1>Zarejestruj</h1>
                 </header>
                 <div class="container">
-                    <article>
-                        <span class="hashtags"><a href="">#F1</a> <a href="">#GPWęgier</a></span>
-                        <div class="article-image"></div>
-                        <div class="article-text">
-                            <span class="article-title">Russell z pierwszym Pole Position w karierze</span>
-                            <span class="article-lead">George Russell zdobył pierwsze Pole Position w swojej karierze w F1. Brytyjczyk w sensacyjny sposób wygrał kwalifikacje przed Grand Prix Węgier.</span>
-                            <span class="article-info">Autor:
-                                Juliusz Winiarek
-                                30 lip 2022, 17:20</span>
+                    <form class="login">
+                        <label>Login</label>
+                        <input type="text" id="login" placeholder="Login" autocomplete="on" required autofocus>
+                        <label>Hasło</label>
+                        <input type="password" id="password" placeholder="Hasło" autocomplete="off" required>
+                        <label>Powtórz hasło</label>
+                        <input type="password" id="password" placeholder="Powtórz hasło" autocomplete="off" required>
+                        <label>E-mail</label>
+                        <input type="email" id="email" placeholder="E-mail" autocomplete="on" required>
+                        <label>Data urodzenia</label>
+                        <input type="date" id="data" placeholder="Data" required>
+                        <div class="buttons-form">
+                            <input type="reset" id="reset" value="Wyczyść">
+                            <input type="submit" id="submit" value="Zarejestruj">
                         </div>
-                        <div class="article-options">
-                            <a href="" class="hover-resize"><i class="fa-solid fa-heart"></i></a>    
-                            <a href="" class="hover-resize"><i class="fa-solid fa-bookmark"></i></a> 
-                        </div>  
-                    </article>
+                        </form>
+                    <a href="login.html" class="register-link">Masz już konto? Zaloguj się!</a>
                 </div>
             </section>
         </main>
