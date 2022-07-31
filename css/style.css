@@ -239,6 +239,7 @@ input[type="reset"]{
 }
 .submit{
     width: 100%;
+    margin-top: 30px;
 }
 .buttons-form input{
     width: 45%;
