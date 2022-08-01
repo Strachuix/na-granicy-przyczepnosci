@@ -59,17 +59,20 @@ nav{
     background:#0a0a0b;
     max-width: 700px;
 }
+.nav-container{
+    width: 100%;
+}
 .nav-bar{
     width: 100%;
-    height: fit-content;
+    height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #252939;
+    background-color: #0a0a0b;
 }
 .nav-top{
-    height: 64px;
+    align-items: center;
     top: 0;
     justify-content: space-around;
     font-size:x-large;
@@ -77,16 +80,28 @@ nav{
     /* border-bottom: #F806CC 2px solid; */
 }
 .nav-bottom{
+    height: 64px;
     justify-content: space-evenly;
-    padding: 10px 0 10px 0;
+    padding:0 10px 0 10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     bottom: 0;
     font-size: 30px;
     /* border-top: #F806CC 2px solid; */
 }
+.top{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
 section{
     margin: 5vw;
+    margin-top: 60px;
     height:100%;
     min-height: fit-content;
     width: 80%;
