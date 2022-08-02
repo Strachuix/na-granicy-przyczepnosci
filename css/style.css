@@ -102,7 +102,7 @@ nav{
 section{
     margin: 5vw;
     margin-top: 60px;
-    height:100%;
+    height:auto;
     min-height: fit-content;
     width: 80%;
     font-size: 5vw;
