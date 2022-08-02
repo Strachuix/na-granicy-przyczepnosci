@@ -24,7 +24,6 @@ main{
     flex-direction: column;
     width: 100%;
     height: calc(100% - 130px);
-    justify-content: center;
     margin-top: 70px;
     margin-bottom: 70px;
 }
