@@ -14,11 +14,22 @@
                     <a href=""><i class="fa-solid fa-ellipsis"></i></a>
                 </nav>
             </div>
+            <div class="bg-nav-race bg-blur" id="race-nav">
+                <div class="nav-race-types">
+                    <a href="" class="menu-race">F1</a>
+                    <a href="" class="menu-race">FE</a>
+                    <a href="" class="menu-race">Serie juniorskie</a>
+                    <a href="" class="menu-race">WEC</a>
+                    <a href="" class="menu-race">ELMS</a>
+                    <a href="" class="menu-race">DTM</a>
+                    <a href="" class="menu-race">Polacy</a>
+                </div>
+            </div> 
             <div class="nav-bar bottom">
                 <nav class="nav-bottom">
                     <a href="index.html" class="hover-resize"><span class="nav-txt"><i class="fa-solid fa-house-chimney"></i></span></a>
                     <a href="" class="hover-resize"><span class="nav-txt"><i class="fa-solid fa-fire-flame-curved"></i></span></a>
-                    <a href="" class="hover-resize"><span class="nav-txt"><i class="fa-solid fa-flag-checkered"></i></span></a>
+                    <a class="hover-resize" id="flag"><span class="nav-txt"><i class="fa-solid fa-flag-checkered"></i></span></a>
                     <a href="" class="hover-resize"><span class="nav-txt"><i class="fa-solid fa-gamepad"></i></span></a>
                 </nav>
             </div>
@@ -46,4 +57,16 @@
             <p>stanislawpokropek@gmail.com</p>
         </footer>
     </body>
+    <script type="text/javascript">
+        var button = document.getElementById("flag");
+        button.onclick = function() {
+            var div = document.getElementById("race-nav");
+            if (div.style.display !== 'flex') {
+                div.style.display = 'flex';
+            }
+            else{
+                div.style.display = 'none';
+            }
+        };
+</script>
 </html>
