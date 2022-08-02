@@ -105,13 +105,13 @@ nav{
     z-index: 5;
     background-color: #0a0a0b;
     border-radius: 50px;
+    border:#215bf0 solid 1px;
 }
 .nav-race-types a{
     font-size:xx-large;
     text-align: center;
     height: 10vh;
     width: 100%;
-    background-color: #0a0a0b;
 }
 .menu-race:nth-child(1){
     border-top-left-radius: 50px;
@@ -123,6 +123,7 @@ nav{
 }
 .nav-race-types a:hover{
     background-color:#252939;
+    border:#215bf0 solid 1px;
 }
 .menu-race:active{
     background-color: #252939;
