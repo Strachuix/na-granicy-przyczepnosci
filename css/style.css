@@ -112,6 +112,7 @@ nav{
     text-align: center;
     height: 10vh;
     width: 100%;
+    font-weight: bold;
 }
 .menu-race:nth-child(1){
     border-top-left-radius: 50px;
