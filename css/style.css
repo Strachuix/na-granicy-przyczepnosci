@@ -24,7 +24,6 @@ main{
     flex-direction: column;
     width: 100%;
     height: calc(100% - 130px);
-    justify-content: center;
     margin-top: 70px;
     margin-bottom: 70px;
 }
@@ -138,7 +137,7 @@ nav{
 section{
     margin: 5vw;
     margin-top: 60px;
-    height:100%;
+    height:auto;
     min-height: fit-content;
     width: 80%;
     font-size: 5vw;
